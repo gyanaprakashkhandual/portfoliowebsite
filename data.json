@@ -1,0 +1,215 @@
+{
+  "personal": {
+    "name": "Gyana Prakash Khandual",
+    "title": "Software Engineer",
+    "image": "https://res.cloudinary.com/dvytvjplt/image/upload/v1765866608/profile_pricture_oemv94.jpg",
+    "tagline": "Building intelligent tools that reduce manual effort.",
+    "email": "gyanprakashkhandual@gmail.com",
+    "github": "https://github.com/GyanaprakashKhandual",
+    "linkedin": "https://www.linkedin.com/in/gyanaprakashkhandual/"
+  },
+  "experience": [
+    {
+      "company": "Avisus Interactive",
+      "role": "Full Stack Developer",
+      "duration": "1 year 3 months",
+      "type": "Full-time"
+    }
+  ],
+  "education": [
+    { "degree": "MCA", "field": "Master of Computer Applications" },
+    { "degree": "BCA", "field": "Bachelor of Computer Applications" }
+  ],
+  "skills": [
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "Spring Boot",
+    "Java",
+    "MongoDB",
+    "PostgreSQL",
+    "Electron",
+    "React Native",
+    "Tailwind CSS",
+    "Playwright",
+    "Selenium",
+    "Python",
+    "RAG",
+    "AI/ML"
+  ],
+  "projects": [
+    {
+      "id": "caffetest",
+      "slug": "caffetest",
+      "name": "CaffeTest",
+      "type": "Full Stack Web Application",
+      "category": "web",
+      "tagline": "AI-powered bug tracking & test management platform.",
+      "description": "CaffeTest is a comprehensive bug tracking and test management platform designed to automate and streamline software testing workflows. Integrates AI APIs to automatically generate test cases from Selenium automation scripts and identify failures as bugs.",
+      "liveDemo": "https://caffetest.vercel.app/",
+      "frontendRepo": "https://github.com/GyanaprakashKhandual/Bug-tracker-frontend",
+      "backendRepo": "https://github.com/GyanaprakashKhandual/Bug-tracker-backend",
+      "image": "https://res.cloudinary.com/dzj6s9o9c/image/upload/v1700000000/caffetest_dashboard.png",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+        "Vercel",
+        "Render",
+        "Next.js",
+        "Cloudinary"
+      ],
+      "features": [
+        "AI Test Case Generation from Selenium Scripts",
+        "Role-Based Access Management",
+        "Multi-view Dashboard (Kanban, Split, Card, List)",
+        "Real-time Auto-save with Keystroke Detection",
+        "Built-in Messaging & Collaboration",
+        "VS Code Extension Integration",
+        "Import/Export & Sharing Features",
+        "Sprint & Phase Management"
+      ],
+      "standout": "VS Code extension leverages Anthropic AI APIs to automatically generate test cases from Selenium scripts and detect failures as bugs — making CaffeTest far more intelligent than Jira or Zephyr."
+    },
+    {
+      "id": "todotech",
+      "slug": "todo-desktop",
+      "name": "TodoTech",
+      "type": "Full Stack Desktop Application",
+      "category": "desktop",
+      "tagline": "Cross-platform desktop task management powered by Spring Boot.",
+      "description": "A full-featured desktop task management application built with Electron for the UI layer and Spring Boot (Java) for the backend logic. PostgreSQL handles data persistence with deployment on Render and Vercel.",
+      "liveDemo": null,
+      "frontendRepo": null,
+      "backendRepo": null,
+      "image": null,
+      "technologies": [
+        "Electron",
+        "Spring Boot",
+        "Java",
+        "PostgreSQL",
+        "Render",
+        "Vercel"
+      ],
+      "features": [
+        "Cross-platform desktop app (Windows, macOS, Linux)",
+        "Spring Boot REST API backend",
+        "PostgreSQL database persistence",
+        "Real-time task synchronization",
+        "Offline-capable Electron frontend"
+      ],
+      "standout": "Bridges the gap between native desktop experience and enterprise-grade Java backend using the Electron + Spring Boot stack."
+    },
+    {
+      "id": "playwright-testing",
+      "slug": "playwright-testing",
+      "name": "Playwright Web Test Suite",
+      "type": "Automation Testing",
+      "category": "testing",
+      "tagline": "End-to-end automation testing framework for modern web applications.",
+      "description": "A robust end-to-end testing suite built with Playwright covering UI flows, API validation, and cross-browser compatibility for complex web applications. Designed for CI/CD integration and scalable test coverage.",
+      "liveDemo": null,
+      "frontendRepo": null,
+      "backendRepo": null,
+      "image": null,
+      "technologies": ["Playwright", "TypeScript", "Node.js", "CI/CD"],
+      "features": [
+        "Cross-browser test execution (Chromium, Firefox, WebKit)",
+        "API and UI integration testing",
+        "Page Object Model architecture",
+        "CI/CD pipeline integration",
+        "Detailed HTML test reports"
+      ],
+      "standout": "Built with scalability in mind — POM architecture and parameterized tests make it easy to scale coverage without duplicating code."
+    },
+    {
+      "id": "selenium-cucumber-vscode",
+      "slug": "selenium-cucumber-vscode",
+      "name": "Selenium Cucumber VS Code Extension",
+      "type": "VS Code Extension",
+      "category": "extension",
+      "tagline": "Supercharge your Selenium + Cucumber BDD workflow inside VS Code.",
+      "description": "A VS Code marketplace extension that brings Selenium and Cucumber BDD tooling directly into the editor. Provides syntax highlighting, step definition navigation, snippet support, and AI-powered test generation.",
+      "liveDemo": "https://marketplace.visualstudio.com/manage/publishers/gyanaprakashkhandual/extensions/selenium-cucumber/hub?_a=acquisition",
+      "frontendRepo": null,
+      "backendRepo": null,
+      "image": null,
+      "technologies": [
+        "TypeScript",
+        "VS Code API",
+        "Selenium",
+        "Cucumber",
+        "Anthropic AI"
+      ],
+      "features": [
+        "Syntax highlighting for Cucumber feature files",
+        "Step definition auto-navigation",
+        "AI-powered test case generation",
+        "Code snippets for common patterns",
+        "Published on VS Code Marketplace"
+      ],
+      "standout": "Integrates Anthropic AI APIs to auto-generate test cases from Selenium scripts — turning hours of manual work into seconds."
+    },
+    {
+      "id": "taar-chrome-extension",
+      "slug": "taar-chrome",
+      "name": "Taar — Speak & Write Any Language",
+      "type": "Chrome Extension",
+      "category": "extension",
+      "tagline": "Break language barriers — translate, speak, and write in any language.",
+      "description": "Taar is a powerful Chrome extension that enables users to speak and write in any language, covering translation between any pair of languages. Designed for global users who need seamless multilingual communication in their browser.",
+      "liveDemo": null,
+      "frontendRepo": null,
+      "backendRepo": null,
+      "image": null,
+      "technologies": [
+        "JavaScript",
+        "Chrome Extension API",
+        "Web Speech API",
+        "Translation API"
+      ],
+      "features": [
+        "Speak in any language via voice input",
+        "Write in any language with translation support",
+        "Cover-to-cover language conversion",
+        "Seamless browser integration",
+        "Real-time translation overlay"
+      ],
+      "standout": "A truly universal language tool — not just translate, but speak and write, covering every major language pair."
+    },
+    {
+      "id": "jarvis-ai",
+      "slug": "jarvis-ai",
+      "name": "Jarvis — AI Assistant",
+      "type": "AI Application",
+      "category": "ai",
+      "tagline": "Your personal AI assistant powered by RAG and advanced data modelling.",
+      "description": "Jarvis is a Python-based AI assistant that leverages Retrieval-Augmented Generation (RAG) for intelligent, context-aware responses. Built with advanced data modelling pipelines and supports domain-specific knowledge bases.",
+      "liveDemo": null,
+      "frontendRepo": null,
+      "backendRepo": null,
+      "image": null,
+      "technologies": [
+        "Python",
+        "RAG",
+        "LangChain",
+        "Data Modelling",
+        "AI/ML",
+        "Vector DB"
+      ],
+      "features": [
+        "Retrieval-Augmented Generation (RAG) pipeline",
+        "Domain-specific knowledge base support",
+        "Advanced data modelling & preprocessing",
+        "Context-aware conversational responses",
+        "Extensible plugin architecture"
+      ],
+      "standout": "Goes beyond simple Q&A — Jarvis uses RAG to ground responses in your actual data, eliminating hallucinations for domain-specific queries."
+    }
+  ]
+}

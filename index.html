@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gyana Prakash Khandual — Software Engineer & Full Stack Developer. Building intelligent tools that reduce manual effort." />
+  <meta name="author" content="Gyana Prakash Khandual" />
+  <title>Gyana Prakash Khandual — Software Engineer</title>
+
+  <!-- Favicon (SVG inline) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══ LOADING SCREEN ═══════════════════════════════════════ -->
+  <div id="loader">
+    <div class="loader-logo">GPK<span style="color:var(--accent-2)">.</span></div>
+    <div class="loader-dots">
+      <div class="loader-dot"></div>
+      <div class="loader-dot"></div>
+      <div class="loader-dot"></div>
+    </div>
+  </div>
+
+  <!-- ═══ NAVIGATION ═══════════════════════════════════════════ -->
+  <nav id="main-nav">
+    <span class="nav-logo">GPK<span>.</span></span>
+
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme"></button>
+
+    <div id="hamburger" class="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-nav" class="mobile-nav">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </div>
+
+  <!-- ═══ MAIN CONTENT ══════════════════════════════════════════ -->
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" aria-label="Introduction">
+      <div id="hero-section"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" aria-label="About and Skills">
+      <div id="about-section" class="reveal"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" aria-label="Projects">
+      <div id="projects-section"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-label="Contact">
+      <div id="contact-section" class="reveal"></div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ════════════════════════════════════════════════ -->
+  <footer>
+    <div id="footer-section"></div>
+  </footer>
+
+  <!-- ═══ SCRIPT ════════════════════════════════════════════════ -->
+  <script src="script.js"></script>
+</body>
+</html>
